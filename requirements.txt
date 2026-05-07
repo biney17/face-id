@@ -1,0 +1,19 @@
+# ========================================
+#  Face ID System - Required Libraries
+#  Install: pip install -r requirements.txt
+# ========================================
+
+# Core Computer Vision
+opencv-python
+
+# Deep Learning & Recognition
+deepface
+tf-keras
+tensorflow>=2.16.0
+
+# Utilities
+numpy
+pyserial
+
+# Note: If using Raspberry Pi, also run:
+# sudo apt install python3-rpi.gpio
